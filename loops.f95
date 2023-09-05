@@ -1,4 +1,5 @@
 program loops
+    implicit none
 
     integer :: i
 
@@ -11,6 +12,7 @@ program loops
     do i=0 , 20, 2
         print *, i
     end do
+
     print *, "***********************************"
 
     do i =0 , -20, -2
